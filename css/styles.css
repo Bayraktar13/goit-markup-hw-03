@@ -55,6 +55,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-family: inherit;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .menu-link:hover,
@@ -217,7 +219,7 @@ img {
 
 .container {
   width: 1158px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0 15px 0 15px;
 }
 
@@ -227,7 +229,6 @@ img {
 
 .flex-container {
   display: flex;
-  align-items: center;
 }
 
 .navigation {
@@ -241,17 +242,14 @@ img {
 
 .nav-first-li {
   margin-right: 40px;
-  padding-top: 24px;
 }
 
 .nav-second-li {
   margin-right: 40px;
-  padding-top: 24px;
 }
 
 .nav-third-li {
   margin-right: 0px;
-  padding-top: 24px;
 }
 
 .address-list {
