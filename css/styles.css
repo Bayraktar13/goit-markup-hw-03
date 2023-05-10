@@ -228,11 +228,11 @@ img {
 .flex-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .navigation {
   display: flex;
-  align-items: center;
 }
 
 .header-list {
@@ -242,16 +242,26 @@ img {
 
 .nav-first-li {
   margin-right: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .nav-second-li {
   margin-right: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .nav-third-li {
   margin-right: 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .address-email {
   margin-right: 40px;
+}
+
+.address-telephone {
+  margin-right: 0px;
 }
