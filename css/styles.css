@@ -265,3 +265,10 @@ img {
 .address-telephone {
   margin-right: 0px;
 }
+
+.hero-text-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
