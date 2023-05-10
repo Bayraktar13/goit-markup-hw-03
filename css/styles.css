@@ -35,10 +35,6 @@ body {
   color: #f4f4fd;
 }
 
-.hiden-text {
-  display: none;
-}
-
 .link {
   text-decoration: none;
 }
@@ -271,7 +267,7 @@ img {
   align-items: center;
 }
 
-ul.header-list > li > a.menu-link {
+.bag-bot {
   padding-top: 24px;
   padding-bottom: 24px;
 }
