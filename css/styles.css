@@ -17,6 +17,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logoColor);
+  margin-right: 76px;
 }
 
 .logo-studio {
@@ -54,6 +55,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-family: inherit;
+  margin-right: 40px;
 }
 
 .menu-link:hover,
@@ -214,16 +216,31 @@ img {
   display: block;
 }
 
-.heder-boarder-container {
+.header-boarder {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header-inner-container {
+.flex-container {
   display: flex;
 }
 
-.additional-container {
+.container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px 0 15px;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+}
+
+.address-email {
+  margin-right: 40px;
 }
