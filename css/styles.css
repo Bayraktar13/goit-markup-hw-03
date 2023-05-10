@@ -55,6 +55,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-family: inherit;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .menu-link:hover,
@@ -80,6 +82,8 @@ body {
   background-color: var(--brandColor);
   width: 1440px;
   height: 600px;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .text-hero {
@@ -89,10 +93,7 @@ body {
   color: #ffffff;
   text-align: center;
   letter-spacing: 0.02em;
-  padding-left: 472px;
-  padding-right: 472px;
-  padding-top: 188px;
-  padding-bottom: 292x;
+  max-width: 496px;
 }
 
 .hero-button {
@@ -105,6 +106,10 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 
 .hero-button:hover,
@@ -260,9 +265,4 @@ img {
 
 .address-telephone {
   margin-right: 0px;
-}
-
-.bag-dz {
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
