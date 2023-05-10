@@ -210,3 +210,58 @@ body {
 }
 
 /* Блоковая модель */
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1158px;
+  margin: 0;
+  padding: 0 15px 0 15px;
+}
+
+.header-boarder {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.header-list {
+  display: flex;
+}
+
+.nav-first-li {
+  margin-right: 40px;
+  padding-top: 24px;
+}
+
+.nav-second-li {
+  margin-right: 40px;
+  padding-top: 24px;
+}
+
+.nav-third-li {
+  margin-right: 0px;
+  padding-top: 24px;
+}
+
+.address-list {
+  display: flex;
+}
+
+.address-email {
+  margin-right: 40px;
+}
+
+.address-telephone {
+  margin-right: 0px;
+}
