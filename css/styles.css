@@ -55,7 +55,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-family: inherit;
-  margin-right: 40px;
 }
 
 .menu-link:hover,
@@ -239,6 +238,18 @@ img {
 .header-list {
   display: flex;
   align-items: center;
+}
+
+.nav-first-li {
+  margin-right: 40px;
+}
+
+.nav-second-li {
+  margin-right: 40px;
+}
+
+.nav-third-li {
+  margin-right: 0;
 }
 
 .address-email {
