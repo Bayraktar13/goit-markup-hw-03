@@ -68,6 +68,7 @@ body {
 
 .address {
   font-style: normal;
+  margin-left: auto;
 }
 
 .contacts {
@@ -80,8 +81,6 @@ body {
 
 .hero-section {
   background-color: var(--brandColor);
-  width: 1440px;
-  height: 600px;
   padding-top: 188px;
   padding-bottom: 188px;
 }
