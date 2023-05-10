@@ -211,6 +211,12 @@ body {
 
 /* Блоковая модель */
 
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+}
+
 img {
   display: block;
 }
@@ -221,12 +227,6 @@ img {
 
 .flex-container {
   display: flex;
-}
-
-.container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px 0 15px;
   justify-content: space-between;
 }
 
