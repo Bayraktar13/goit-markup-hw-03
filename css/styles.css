@@ -4,9 +4,19 @@
 }
 
 body {
-  font-family: "Roboto", "Lato", "Comme", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 
 .logo {
@@ -41,36 +51,46 @@ body {
 
 .list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .menu-link {
-  font-family: "Roboto", sans-serif;
   color: var(--brandColor);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-family: inherit;
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .menu-link:hover,
-.menu-link:focus,
+.menu-link:focus {
+  color: #404bbf;
+}
+
 .contacts:hover,
 .contacts:focus {
   color: #404bbf;
 }
 
 .address {
-  font-style: normal;
   margin-left: auto;
 }
 
 .contacts {
+  font-style: normal;
   color: inherit;
   font-family: inherit;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .hero-section {
@@ -87,6 +107,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   max-width: 496px;
+  margin-bottom: 48px;
 }
 
 .hero-button {
@@ -116,6 +137,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--brandColor);
+  margin-bottom: 8px;
 }
 
 .blocks-text {
@@ -234,30 +256,12 @@ img {
 
 .header-list {
   display: flex;
-}
-
-.nav-first-li {
-  margin-right: 40px;
-}
-
-.nav-second-li {
-  margin-right: 40px;
-}
-
-.nav-third-li {
-  margin-right: 0px;
+  gap: 40px;
 }
 
 .address-list {
   display: flex;
-}
-
-.address-email {
-  margin-right: 40px;
-}
-
-.address-telephone {
-  margin-right: 0px;
+  gap: 40px;
 }
 
 .hero-text-btn {
@@ -267,9 +271,17 @@ img {
   align-items: center;
 }
 
-.bag-bot {
-  padding-top: 24px;
-  padding-bottom: 24px;
+.text-flex {
+  display: flex;
+  gap: 24px;
 }
 
-.
+.third-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.third-section-list {
+  /* аналог width */
+  flex-basis: calc((100% - 24px * 3) / 4);
+}
