@@ -150,6 +150,8 @@ p {
 
 .fourth-section {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .main-page-title {
@@ -173,6 +175,8 @@ p {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--brandColor);
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .rank-of-team {
@@ -180,6 +184,7 @@ p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .footer-text {
@@ -299,4 +304,22 @@ img {
 .third-section-items {
   /* аналог width */
   flex-basis: calc((100% - 24px * 3) / 3);
+}
+
+.fourth-section-list {
+  display: flex;
+  gap: 24px;
+}
+
+.fourth-section-item {
+  /* аналог width */
+  flex-basis: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.name-and-rank {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
