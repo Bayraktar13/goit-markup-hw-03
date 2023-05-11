@@ -160,6 +160,7 @@ p {
   text-align: center;
   text-transform: capitalize;
   color: var(--brandColor);
+  margin-bottom: 72px;
 }
 
 .background-for-image {
@@ -276,12 +277,26 @@ img {
   gap: 24px;
 }
 
-.third-section {
+.second-section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
-.third-section-list {
+.second-section-list {
   /* аналог width */
   flex-basis: calc((100% - 24px * 3) / 4);
+}
+
+.third-section {
+  padding-bottom: 120px;
+}
+
+.third-section-list {
+  display: flex;
+  gap: 24px;
+}
+
+.third-section-items {
+  /* аналог width */
+  flex-basis: calc((100% - 24px * 3) / 3);
 }
