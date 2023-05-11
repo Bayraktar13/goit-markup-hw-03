@@ -31,6 +31,17 @@ p {
   display: inline-block;
 }
 
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logoColor);
+  display: inline-block;
+}
+
 .logo-studio {
   color: var(--brandColor);
   letter-spacing: 0.03em;
@@ -198,8 +209,6 @@ p {
 
 .footer-section {
   background-color: var(--brandColor);
-  width: 1440px;
-  height: 312px;
   padding-top: 100px;
   padding-bottom: 100px;
 }
